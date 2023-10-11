@@ -1,0 +1,29 @@
+{
+  "name": "gyanada",
+  "displayName": "Gyanada Institution",
+  "slug": "Gyanada Institution",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": ["**/*"],
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "package": "com.gyanadaapp.mob",
+    "versionCode": 1,
+    "config": {
+      "minSdkVersion": 29
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}
